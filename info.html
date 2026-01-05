@@ -27,19 +27,30 @@
       لإضافة مواضيعكم يرجى إرسالها عبر الطرق التالية
     </p>
 
-   <form action="https://formsubmit.co/mohsinmehdaoui@gmail.com" method="POST">
-  
+  <form action="https://formsubmit.co/mohsinmehdaoui@gmail.com"
+      method="POST"
+      enctype="multipart/form-data">
+
   <input type="text" name="name" placeholder="اسمك" required>
+
   <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+
   <textarea name="message" placeholder="اكتب رسالتك هنا..." required></textarea>
 
+  <!-- رفع ملف -->
+  <input type="file" name="attachment"
+         accept=".jpg,.jpeg,.png,.pdf,.doc,.docx"
+         required>
+
   <!-- إعدادات -->
-  <input type="hidden" name="_subject" value="رسالة جديدة من الموقع">
+  <input type="hidden" name="_subject" value="📎 رسالة مع ملف من الموقع">
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_template" value="table">
 
-  <button type="submit">📩 إرسال</button>
+  <button type="submit">📩 إرسال الملف</button>
 </form>
 
 
+
   </main>
+
