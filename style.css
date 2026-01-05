@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* استخدام خط حديث وجمالي */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #e9ecef; /* لون خلفية أفتح وأكثر حداثة */
+    color: #333;
+    line-height: 1.6;
+    direction: rtl; /* Ensures proper RTL layout for Arabic */
+    background-image: url("OIP\ \(1\).webp");
+    background-color: #e9ecef57;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 90%; /* مساحة أكبر للمحتوى على الشاشات الكبيرة */
+    max-width: 1200px; /* تحديد أقصى عرض */
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #0057b3;
+    transition: color 0.3s ease; /* تأثير انتقال ناعم لتغيير اللون */
+    position: relative;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+/* Header Styling */
+header {
+    background: #4a0a6e; /* أزرق داكن جذاب */
+    color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل للرأس */
+}
+
+header h1 {
+    float: right;
+    margin: 0;
+    font-size: 1.8rem; /* حجم خط مناسب للشعار */
+}
+
+header nav {
+    float: left;
+    margin-top: 5px; /* محاذاة أفضل مع الشعار */
+}
+
+header nav a {
+    color: #ffffff;
+    padding: 10px 15px;
+    margin-left: 5px;
+    border-radius: 5px; /* زوايا مدورة أكثر */
+    transition: background-color 0.3s ease; /* تأثير انتقال ناعم للخلفية */
+}
+
+header nav a:hover {
+    background: #7100b3fb; /* لون أغمق عند المرور */
+}
+
+main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+h2 {
+    color: #ffffff;
+    border-bottom: 3px solid #4c0b66; /* خط سفلي أكثر بروزاً */
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    
+}
+
+.news-card1 {
+    background-color: rgba(255, 255, 255, 0.24);
+    margin-bottom: 25px;
+    padding: 3px;
+    border-radius: 10px; /* زوايا مدورة ناعمة */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* ظل أعمق وأكثر جاذبية */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* تأثير عند التفاعل */
+    border-right: 5px solid #b34800; /* شريط جانبي لوني مميز */
+}
+.news-card1:hover {
+    transform: translateY(-5px); /* رفع البطاقة قليلاً */
+    box-shadow: 0 8px 25px rgba(255, 252, 252, 0.15); 
+}
+.news-card1 h3 {
+    color: #ffffffec;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.news-card1 a {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #0056b3;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ffffffd5;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+}
+.news-card1 .date {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    display: block; /* للتأكد من أنه يأخذ سطرًا جديدًا */
+}
+.news-card1 p {
+    color: #ffffffda;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    display: block; /* للتأكد من أنه يأخذ سطرًا جديدًا */
+    text-align: center;
+}
+
+
+.news-card2 {
+    background-color: rgba(255, 255, 255, 0.24);
+    margin-bottom: 25px;
+    padding: 3px;
+    border-radius: 10px; /* زوايا مدورة ناعمة */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* ظل أعمق وأكثر جاذبية */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* تأثير عند التفاعل */
+    border-right: 5px solid #d9fc3f; /* شريط جانبي لوني مميز */
+}
+.news-card2:hover {
+    transform: translateY(-5px); /* رفع البطاقة قليلاً */
+    box-shadow: 0 8px 25px rgba(255, 252, 252, 0.15); 
+}
+.news-card2 h3 {
+    color: #ffffffec;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.news-card2 a {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #0056b3;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ffffffd5;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+}
+.news-card2 .date {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    display: block; /* للتأكد من أنه يأخذ سطرًا جديدًا */
+}
+.news-card2 p {
+    color: #ffffffda;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    display: block; /* للتأكد من أنه يأخذ سطرًا جديدًا */
+    text-align: center;
+}
+
+.news-card3 {
+    background-color: rgba(255, 255, 255, 0.24);
+    margin-bottom: 25px;
+    padding: 3px;
+    border-radius: 10px; /* زوايا مدورة ناعمة */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* ظل أعمق وأكثر جاذبية */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* تأثير عند التفاعل */
+    border-right: 5px solid #3235e0; /* شريط جانبي لوني مميز */
+}
+.news-card3:hover {
+    transform: translateY(-5px); /* رفع البطاقة قليلاً */
+    box-shadow: 0 8px 25px rgba(255, 252, 252, 0.15); 
+}
+.news-card3 h3 {
+    color: #ffffffec;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.news-card3 a {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #0056b3;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ffffffd5;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+}
+.news-card3 .date {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    display: block; /* للتأكد من أنه يأخذ سطرًا جديدًا */
+}
+.news-card3 p {
+    color: #ffffffda;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    display: block; /* للتأكد من أنه يأخذ سطرًا جديدًا */
+    text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #00c853;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
